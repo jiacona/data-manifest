@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Formula DM';
+  src:  url('./fonts/FormulaDM-rounder.woff2') format('woff2'),
+        url('./fonts/FormulaDM-rounder.woff') format('woff');
+}
+
+h1, h2, .heading { font-family: $primary-typeface, serif }
+
+.link:active, .link:hover, .link:focus { color: $color-primary }
+.active { color: $color-primary }

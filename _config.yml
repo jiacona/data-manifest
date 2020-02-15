@@ -1,0 +1,11 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Data Manifest" # the name of your site, e.g. ACME Corp.
+navigation:
+  - label: About
+    url: /about
+  - label: Portfolio
+    url: /portfolio
+  - label: Contact
+    url: /contact
+
