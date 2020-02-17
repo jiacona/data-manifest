@@ -4,7 +4,11 @@
         url('./fonts/FormulaDM-rounder.woff') format('woff');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+
 h1, h2, .heading { font-family: $primary-typeface, serif }
+
+.secondary { font-family: 'Archivo', sans-serif }
 
 .link:active, .link:hover, .link:focus { color: $color-primary }
 .active { color: $color-primary }
