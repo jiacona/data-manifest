@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");*/
 @import url("https://fonts.googleapis.com/css?family=Archivo&display=swap");
 
 /*
@@ -105,7 +105,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		/*background: #242943;*/
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2837,19 +2838,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #7070FF;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #FFA170;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #FF7DFF;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #70FFFF;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -2857,7 +2858,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #FFFA4A;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3120,7 +3121,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		/*background-color: #2a2f4a;*/
+		background-color: #000000;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3151,7 +3153,8 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				/*color: #242943;*/
+				color: #000000;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3386,7 +3389,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("/assets/images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3416,7 +3419,8 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			/*background-color: #242943;*/
+			background-color: #000000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3595,7 +3599,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		/*background-color: #2a2f4a;*/
+		background-color: #000000;*/
 	}
 
 		#main > * {
